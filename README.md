@@ -80,13 +80,3 @@ SNYK_PROJECT_ID=<PROJECT_ID> npm start
 ```
 
 ** The app will continue to work normally even if not provided a project id
-
-## Fixing the issues
-To find these flaws in this application (and in your own apps), run:
-```
-npm install -g snyk
-snyk wizard
-```
-
-In this application, the default `snyk wizard` answers will fix all the issues.
-When the wizard is done, restart the application and run the exploits again to confirm they are fixed.
