@@ -5,6 +5,7 @@ on: push
 jobs:
   security:
     runs-on: ubuntu-latest
+    environment: outsystems
     steps:
       - uses: actions/checkout@master
 
